@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="tab.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+        <title>tabs</title>
+    </head>
+    <body>
+        <ul class="tabs">
+            <li data-tab-target="#home" class="active tab">Home</li>
+            <li data-tab-target="#discription" class="tab">Discription</li>
+            <li data-tab-target="#about" class="tab">About us</li>
+        </ul>
+        <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+            <h2>welcome</h2>
+            <p>this is my channel</p>
+        </div>
+        <div id="discription" data-tab-content>
+            <h2>Discription</h2>
+            <p>this the content of my channel</p>
+        </div>
+        <div id="about" data-tab-content>
+            <h2>WE ARE</h2>
+            <p>all about us</p>
+        </div>
+    </div>
+            <script defer src="tab.js"></script>
+    </body>
+</html>
